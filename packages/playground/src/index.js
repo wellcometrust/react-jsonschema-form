@@ -87,7 +87,7 @@ const themes = {
       },
     },
   },
-  "material-ui": {
+  "material-ui-4": {
     stylesheet: "",
     theme: MuiTheme,
   },
