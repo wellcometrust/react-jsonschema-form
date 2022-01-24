@@ -33,8 +33,7 @@ should change the heading of the (upcoming) version to include a major version b
   - The Material-UI 5 theme will fallback to a form with a message indicating `@mui` is not available when one (or both) of the libraries are not installed
 
 ## Dev / docs / playground
-- Added resolve aliases to `playground` so that the updated `material-ui` theme doesn't try to resolve the `@mui` libraries which require React 17 and fail to load as a result
-- Added a new `playground-r17` for the `@rjsf/core` and `@rjsf/material-ui` version 4 and 5 themes on top of React 17
+- Upgraded playground to use React 17
 
 # v3.3.0
 
