@@ -1,7 +1,7 @@
 {
   "name": "@rjsf/playground",
-  "version": "3.2.0",
-  "description": "rjsf playground on react 17",
+  "version": "3.2.1",
+  "description": "rjsf playground",
   "private": true,
   "scripts": {
     "build:lib": "rimraf lib && cross-env NODE_ENV=production babel -d lib/ src/",
