@@ -20,7 +20,7 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, 'build'),
     compress: true,
-    port: 8081
+    port: 8080
   },
   resolve: {
     alias: {
@@ -52,7 +52,7 @@ module.exports = {
         ],
         include: [
           path.join(__dirname, "src"),
-          path.join(__dirname, "playground-r17"),
+          path.join(__dirname, "playground"),
           path.join(__dirname, "node_modules", "mode", "javascript"),
         ]
       },
@@ -69,7 +69,7 @@ module.exports = {
         ],
         include: [
           path.join(__dirname, "src"),
-          path.join(__dirname, "playground-r17"),
+          path.join(__dirname, "playground"),
           path.join(__dirname, "node_modules", "monaco-editor")
         ],
       },
@@ -78,7 +78,7 @@ module.exports = {
         use: ['file-loader'],
         include: [
           path.join(__dirname, "src"),
-          path.join(__dirname, "playground-r17"),
+          path.join(__dirname, "playground"),
           path.join(__dirname, "node_modules", "monaco-editor")
         ],
       }
